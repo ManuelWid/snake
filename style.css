@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    height: 98vh;
+    margin: 1vh;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    border: 1px dotted black;
+}
+
+.block:hover {
+    background-color: lightblue;
+}
